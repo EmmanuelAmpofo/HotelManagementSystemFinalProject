@@ -1,0 +1,42 @@
+How to run the program
+1.Copy the database from the program folder(HotelManagementSystem\src\database\hoteldata)
+2.Placed copied database in your local eclipse-workspace.
+3.Right-click on the database in your eclipse-workspace
+4.Click on security tab
+5.Copy the path eg.C:\Users\Poff\eclipse-workspace\HotelManagementSystem\src\database\hoteldata
+6.Open Project in eclipse
+7.Open hotelDbConnection.java file
+8.paste copied database path.
+
+
+9.Right on project folder in eclipse --> Build Path-->Configure Build Path-->ClassPath-->Add JARs
+10. Add Jar files from project folder
+11. Run Login.java file
+
+
+
+
+
+SHOULD INCASE THERE IS AN ERROR
+
+1.Create a database in SQLITE3 with database named "hoteldata"
+2. Create a table in hoteldata named "guestinfo"
+3.Populate the table with fields
+...GuestId = INTEGER
+...FirstName = VARCHAR
+...Surname = VARCHAR
+...Address = VARCHAR
+...Phone = BIGINT
+...Sex = VARCHAR
+...RoomType = VARCHAR
+...InitialDeposit = BIGINT
+...RoomNo = INT
+...BedType = VARCHAR
+...RoomPrice = INT
+...RoomCondition = VARCHAR
+...NumberOfDays = INT
+
+4.Copy the path of the database.
+5.Open hoteDbConnection.java file
+6.Paste the copied path in the connection path defined in the code
+7.Run Login.java file

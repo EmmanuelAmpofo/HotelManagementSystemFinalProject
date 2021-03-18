@@ -1,0 +1,8 @@
+LOGIN AS ADMIN
+Username: admin
+Password: admin
+
+
+LOGIN AS STAFF
+Username: staff
+Username: staff
